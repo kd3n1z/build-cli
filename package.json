@@ -1,0 +1,13 @@
+{
+  "name": "com.kd3n1z.buildcli",
+  "version": "1.0.0",
+  "displayName": "BuildCLI",
+  "description": "BuildCLI is a Unity package that enables command-line builds with customizable options for CI/CD.",
+  "author": {
+    "name": "Denis Komarkov",
+    "url": "https://komarkov.com/"
+  },
+  "license": "MIT",
+  "documentationUrl": "https://github.com/kd3n1z/build-cli/blob/main/README.md#usage",
+  "unity": "2021.3"
+}
