@@ -58,7 +58,7 @@ namespace BuildCLI {
             string outPath = GetStringArgument("outputPath", "./Build/");
 
             BuildReport report = BuildPipeline.BuildPlayer(
-                EditorBuildSettings.scenes.Select(e => e.path).ToArray(),
+                EditorBuildSettings.scenes.Where(e => e.enabled).Select(e => e.path).ToArray(),
                 outPath,
                 (BuildTarget)Enum.Parse(typeof(BuildTarget), GetStringArgument("target", "NoTarget")),
                 options
