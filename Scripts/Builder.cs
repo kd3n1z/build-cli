@@ -69,6 +69,7 @@ namespace BuildCLI {
             }
             else {
                 Debug.LogError($"Build not successful, status: {report.summary.result.ToString().ToLower()}");
+                EditorApplication.Exit(1);
             }
         }
     }
