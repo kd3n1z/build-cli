@@ -69,7 +69,7 @@ namespace BuildCLI {
                 string arg = _args[i];
 
                 if (arg.StartsWith(InfoPrefix)) {
-                    info[arg.Remove(0, InfoPrefix.Length)] = _args[++i];
+                    info[arg.Remove(0, InfoPrefix.Length)] = _args[++i].Trim();
                 }
             }
 
