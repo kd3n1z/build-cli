@@ -4,7 +4,6 @@ using System;
 using System.IO;
 using System.Linq;
 using BuildCLI.Internal;
-using PlasticGui.WorkspaceWindow.Merge;
 using UnityEditor;
 using UnityEditor.Build.Reporting;
 using UnityEngine;
